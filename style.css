@@ -1,0 +1,29 @@
+body {
+  margin: 5px 5px 5px 5px;
+  padding: 0;
+  background-color: rgb(181, 196, 194);
+  font-family: "Titillium Web", sans-serif;
+  box-sizing: border-box;
+}
+main {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+.menu-icon {
+  float: right;
+  margin-right: 7px;
+}
+
+.logo-holder {
+  padding: 24px 0 0 24px;
+}
+
+.logo-name {
+  margin: 0;
+}
