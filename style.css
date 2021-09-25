@@ -1,13 +1,15 @@
 body {
   margin: 5px 5px 5px 5px;
-  padding: 0;
-  background-color: rgb(181, 196, 194);
+  padding: 0px;
+  background-color: rgb(77, 131, 124);
   font-family: "Titillium Web", sans-serif;
   box-sizing: border-box;
 }
+
 main {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+
+  margin: 0px;
 }
 
 header {
@@ -17,7 +19,8 @@ header {
 
 .menu-icon {
   float: right;
-  margin-right: 7px;
+  margin: 3px 7px 0 0;
+  cursor: pointer;
 }
 
 .logo-holder {
@@ -26,4 +29,57 @@ header {
 
 .logo-name {
   margin: 0;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+input[type="test"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("img/icons8-search-96.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 60%;
+}
+
+.app-container {
+  margin: 70px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: space-evenly;
+}
+
+.app-1,
+.app-2,
+.app-3,
+.app-4,
+.app-5,
+.app-6 {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.app-1,
+.app-2,
+.app-3,
+.app-4,
+.app-5,
+.app-6 {
+  background-color: rgba(228, 218, 218, 0.507);
+  cursor: pointer;
+  border-radius: 12px;
 }
